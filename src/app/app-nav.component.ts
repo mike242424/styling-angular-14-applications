@@ -2,6 +2,7 @@ import { Component, ViewEncapsulation } from '@angular/core';
 
 @Component({
     selector: 'app-nav',
+    encapsulation: ViewEncapsulation.None,
     template: `
         <div>
             <ul>
